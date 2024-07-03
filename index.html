@@ -9,17 +9,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid bg-primary d-flex justify-content-around p-5 vh-100">
-        <div class="inner container-xl bg-white p-5  ">
+    <div class="outer container-fluid bg-primary d-flex justify-content-around p-5 ">
+        <div class="inner container-xl bg-white p-5 w-auto ">
              <center>
-                <input type="text" id="cityname" placeholder="Enter city name" onkeyup="searchCity()">
+                <input type="text" id="cityname" placeholder="Enter city name"><button onclick="searchCity()"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
             </center>  
-    <!-- <button onclick="">Get Weather</button> -->
-    <h1 class="text-dark">Weather in <span id="cityName">######</span>,<span id="country"></span></h1>
-    <div class="d-flex justify-content-around">
+    <!--  -->
+    <h1 class="text-dark">Weather in <span id="cityName">########</span>,<span id="country">###</span></h1>
+    <div class="mobile d-flex justify-content-around">
         <div class="containerOne">
             <img src="./images/sun.png" alt="">
-            <h1 id="climate"></h1>
+            <h1 id="climate">######</h1>
             <div ><i class="fa-solid fa-temperature-half fa-2xl"></i> Temperature<br> <Span id="temp">0</Span></div>
             <div><i class="fa-solid fa-droplet fa-2xl"></i> Humidity<br><Span id="humidity">0</Span></div>
             <div ><i class="fa-solid fa-bars-staggered fa-2xl"></i> Pressure<br><Span id="presure">0</Span></div>
@@ -40,7 +40,7 @@
 </div>
 
 </div>        
-
+<center><p>Design & build by MANOJ</p></center>
     </div>
     <script src="script.js"></script>
 </body>
