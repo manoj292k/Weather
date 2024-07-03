@@ -17,6 +17,9 @@
 img{
     width: 100px;
     height: 100px;
+   position: relative;
+   top: -15px;
+   left: 40px;
 }
 #climate{
     font-size: 30px;
@@ -25,16 +28,31 @@ img{
     top: -30px;
     left: -30px;
 }
+h1 span{
+    font-size: 45px;
+}
 span{
     color: red;
 }
 input{
-    width: 100%;
+    width: 80%;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     border: 2px solid black;
+    border-right: none;
     font-size: 40px;
     padding: 3px;
+}
+button{
+    height:50px;
+    width: 50px;
+    
+    border-radius: 10px;
+    border: 2px solid black;
+    border-left: none;
+    position: relative;
+    top: -1px;
+    
 }
 .containerOne{
     width: 40%;
@@ -43,6 +61,7 @@ input{
     justify-content: space-around;
     flex-direction: column;
     gap: 5px;
+    text-align: center;
 }
 .containerOne div{
     font-size: medium;
@@ -97,4 +116,32 @@ input{
 .containertwo img{
     width: 80px;
     height: 80px; 
+}
+@media screen and (max-width:900px) {
+    .mobile{
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 5px;
+    }
+    .containertwo div,.containerOne div{
+        width: 220px;
+        background-color:darkorange;
+    }
+    .containertwo div i{
+    position: relative;
+    left: 2px;}
+    .outer{
+        height: max-content;
+    }
+    h1 span{
+        font-size: 30px;
+    }
+    input{
+        width: 80%;
+    }
+    button{
+        width: 15%;
+    }
+    
 }
