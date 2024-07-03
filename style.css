@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.outer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.inner{
+    border-radius: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#climate{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+span{
+    color: red;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 40px;
+    padding: 3px;
+}
+.containerOne{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}
+.containerOne div{
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    padding: 3px;
+    margin: 0px 20px 0px 0px;
+    position: relative;
+    top: -30px;
+    text-align: center;
+    
+}
+.containerOne div span{
+    position: relative;
+    left: 30px;
+}
+.containerOne div i{
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+.containertwo div{
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+    
+}
+.containertwo div i{
+    position: relative;
+    top: 21px;
+    right: 25px;
+
+   
+}
+.containertwo div span{
+    position: relative;
+    
+}
+.containertwo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.containertwo img{
+    width: 80px;
+    height: 80px; 
+}
